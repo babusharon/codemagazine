@@ -1,0 +1,112 @@
+#icon1,#icon2,#icon3,#icon4{
+    width: 40px;
+}
+
+#bg1{
+    width:800px
+}
+
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: #89C4E1;
+}
+
+h1,h3{
+    color: #89C4E1;
+}
+h4{
+    text-align: center;
+}
+body{
+        border-top:2px solid #89C4E1;
+        margin-top: 0;
+         
+}
+header{
+            width: 800px;
+            background-color:#E5E5CB;
+            position: relative;
+        
+}
+
+ aside p{
+
+    display: inline;  /*aside kazinju varunnathinu apply akan*/
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 0;
+
+}
+
+aside{
+    background-color: #EAE7B1;
+    width: fit-content;
+    padding: 10px;
+    border-top: #89C4E1 solid;
+    border-bottom: #89C4E1 solid;
+    position: relative;
+}
+
+
+
+span{
+      color:  #1d66ee;
+}
+
+input[type="button"]{
+
+    padding:10px;
+  
+}
+.button{
+        position:absolute;
+        bottom:0;
+        right: 0;
+ }
+ .article{
+            position: relative;
+ }
+.top{
+    position: relative;
+    top: -50px;
+    right: -800px;
+    width: fit-content;
+    background-color: yellow;
+}
+.start::first-letter{
+                     font-weight: bold;
+}
+.first1{
+         position: relative;
+         width: 800px;
+         margin: 0 auto; /*to align whole content in center  and this property written in whole div*/
+}
+
+
+*{
+    font-family: sans-serif;
+   
+}
+li:first-child{
+                font-weight: bold;
+}
+.test,.heading{
+      margin-top: 0;
+}
+
+footer{
+    text-align: center;
+}
+
+.btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.btn-container{
+    position: relative;
+    right: -500px;
+}
